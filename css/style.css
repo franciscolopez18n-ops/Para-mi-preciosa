@@ -21,6 +21,12 @@ body{
     border: none;
 }
 
+.responsive {
+    max-width: 100%; 
+    height: auto;   
+    display: block; 
+  }
+
 .botones a{
     background-color: #0a2be9;
     padding: 9px;
