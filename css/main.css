@@ -43,7 +43,7 @@ body {
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
   position: absolute;   /* o fixed si quieres que se quede pegado al hacer scroll */
-  top: 850PX;               
+  top: 75px;               
   left: 50%;            /* lo centra horizontalmente */
   transform: translateX(-50%); /* corrige el centrado */
   font-weight: bold;
