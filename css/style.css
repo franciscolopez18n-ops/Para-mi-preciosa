@@ -10,8 +10,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    /* padding-top: -30; */
+    background: url("../img/mymelody.jpg") no-repeat center center fixed; 
+    background-size: cover;  /* hace que la imagen ocupe toda la pantalla */
 }
 
 .botones{
