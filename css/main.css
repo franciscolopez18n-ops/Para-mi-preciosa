@@ -40,16 +40,19 @@ body {
 
 }
 .titulo {
-  margin-bottom: 620px;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
-  position: absolute;
+  position: absolute;   /* o fixed si quieres que se quede pegado al hacer scroll */
+  top: 0;               /* lo manda al borde superior */
+  left: 50%;            /* lo centra horizontalmente */
+  transform: translateX(-50%); /* corrige el centrado */
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
